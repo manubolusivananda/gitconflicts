@@ -1,4 +1,4 @@
-resource "aws_instance" "nanda" {
+resource "aws_instance" "ram" {
     ami = var.ami_id1
     instance_type = var.type1
     subnet_id = aws_subnet.pub_sub.id
