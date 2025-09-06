@@ -1,3 +1,4 @@
+
 resource "aws_instance" "ram" {
     ami = var.ami_id1
     instance_type = var.type1
